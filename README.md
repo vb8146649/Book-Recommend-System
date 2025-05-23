@@ -2,7 +2,7 @@
 
 This is a **Book Recommender System** built with [Streamlit](https://streamlit.io/). The app suggests similar books based on your selected favorite using a precomputed similarity matrix and book metadata. Covers are fetched using the Open Library API.
 
-👉 **[Click here to use the app](https://vb8146649-book-recommender-system-app-fbmttm.streamlit.app/)**  
+👉 **[Click here to use the app](book-recommend-system-abkn8473oa6numahr2sqks)**  
 
 ---
 ## 📸 Screenshots
