@@ -1,14 +1,14 @@
-# 📚 Book Recommender System
+# 📚 Book Recommendation System
 
-This is a **Book Recommender System** built with [Streamlit](https://streamlit.io/). The app suggests similar books based on your selected favorite using a precomputed similarity matrix and book metadata. Covers are fetched using the Open Library API.
+This is a **Book Recommendation System** built with [Streamlit](https://streamlit.io/). The app suggests similar books based on your selected favorite using a precomputed similarity matrix and book metadata. Covers are fetched using the Open Library API.
 
-👉 **[Click here to use the app](book-recommend-system-abkn8473oa6numahr2sqks)**  
+👉 **[Click here to use the app](https://book-recommend-system-abkn8473oa6numahr2sqks.streamlit.app/)**  
 
 ---
 ## 📸 Screenshots
 
 ### 🔍 Book Search 
-<img src="https://github.com/vb8146649/Book-Recommender-System/blob/main/demo.gif" alt="book-recommender-demo" width=100%>
+<img src="https://github.com/vb8146649/Book-Recommend-System/blob/main/demo.gif" alt="book-recommender-demo" width=100%>
 
 ---
 
@@ -34,8 +34,6 @@ This is a **Book Recommender System** built with [Streamlit](https://streamlit.i
 
 - [Streamlit](https://streamlit.io/)
 - [pandas](https://pandas.pydata.org/)
-- [NumPy](https://numpy.org/)
-- [Requests](https://docs.python-requests.org/)
 - [gdown](https://pypi.org/project/gdown/)
 - Google Drive for model file storage
 - Open Library API for book cover retrieval
@@ -47,6 +45,5 @@ This is a **Book Recommender System** built with [Streamlit](https://streamlit.i
 Create a `.streamlit/secrets.toml` file for sensitive keys:
 
 ```toml
-api_key = "your_tmdb_api_key"
 similarity = "your_google_drive_file_id_for_similarity.pkl"
 movies_dict = "your_google_drive_file_id_for_movies_dict.pkl"

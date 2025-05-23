@@ -40,7 +40,7 @@ def recommend(book):
     return recommended_books,recommended_books_posters
 
 
-st.title('Book Recommender System')
+st.title('Book Recommendation System')
 
 
 option = st.selectbox(
