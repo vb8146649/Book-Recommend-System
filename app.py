@@ -35,8 +35,8 @@ def recommend(book):
     recommended_books = []
     recommended_books_posters = []
     for i in books_list:
-        recommended_books.append(books.iloc[i[0]].title)
-        recommended_books_posters.append(books.iloc[i[0]].thumbnail)
+        recommended_books.append(books.loc[i[0]].title)
+        recommended_books_posters.append(books.loc[i[0]].thumbnail)
     return recommended_books,recommended_books_posters
 
 
